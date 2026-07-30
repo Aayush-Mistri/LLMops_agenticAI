@@ -1,0 +1,82 @@
+.env
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+
+# Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cache
+.cache/
+
+# ==========================
+# uv
+# ==========================
+.python-version
+
+# Keep uv.lock for reproducible builds
+# (Do NOT ignore uv.lock)
+
+# ==========================
+# IDEs
+# ==========================
+.idea/
+
+# ==========================
+# Secrets
+# ==========================
+*.pem
+*.key
+*.crt
+*.p12
